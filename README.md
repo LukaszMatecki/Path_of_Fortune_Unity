@@ -18,34 +18,35 @@
 
 Gra demonstruje zaawansowaną obsługę UI, zarządzanie stanem gry (Save/Load) oraz integrację mechanik karcianych w środowisku 3D.
 
-### Główne Funkcjonalności
+### Specyfikacja Funkcjonalna
 
-* **System Ruchu:** Fizyczny rzut kostką oraz poruszanie się po polach planszy.
-* **Walka Karciana:** Spotkania z wrogami odbywają się w formie minigry karcianej. Gracz wystawia karty, aby atakować przeciwnika lub bronić się przed jego ruchami.
-* **Ekonomia i Skrzynki:**
-    * Zbieranie monet ze skrzynek rozmieszczonych na mapie.
-    * Możliwość wydawania zebranych monet na leczenie postaci.
-* **Świat Gry:**
-    * **Cykl Dnia i Nocy:** Dynamicznie zmieniające się oświetlenie wpływające na klimat rozgrywki.
-    * **Animacje:** Rozbudowany zestaw animacji dla postaci, wrogów i otoczenia.
-* **Systemy Techniczne:**
-    * **Save & Load:** Pełny system zapisu i wczytywania postępów gry.
-    * **Lokalizacja:** Menu zmiany języka (Polski/Angielski).
-    * **Audio:** Zaimplementowana ścieżka dźwiękowa oraz efekty dźwiękowe.
+| Moduł | Opis |
+| :--- | :--- |
+| **System Ruchu** | Fizyczny rzut kostką oraz nawigacja po waypointach na planszy. |
+| **Walka Karciana** | Turowy system walki. Gracz używa talii kart do ataku i obrony przeciwko wrogom 3D. |
+| **Ekonomia** | System zbierania monet ze skrzynek i wydawania ich na leczenie (Health Restoration). |
+| **Cykl Dobowy** | Dynamiczny system Day/Night zmieniający oświetlenie i klimat sceny. |
+| **Animacje** | Kompletny zestaw animacji dla postaci gracza, przeciwników i interakcji z otoczeniem. |
+| **Core Systems** | Pełny system zapisu (Save/Load), lokalizacja (PL/EN) oraz Audio Manager. |
 
-### Technologie
-* **Silnik:** Unity 6 (wersja 6000.0.24f1)
-* **Język:** C# (Logika karcianki, SaveSystem, Managers)
-* **Grafika 3D:** Blender (modele wrogów, skrzynki, otoczenie)
-* **Grafika 2D:** Photoshop / Illustrator (Karty, UI, ikony)
+### Stack Technologiczny
+
+```text
+Silnik:        Unity 6 (Wersja 6000.0.24f1)
+Język:         C# (Logika gry, Systemy zarządzania)
+Grafika 3D:    Blender (Modele postaci, otoczenie)
+Grafika 2D:    Photoshop / Illustrator (UI, Karty)
+```
 
 ### Instalacja i Uruchomienie
 
 1. Sklonuj repozytorium:
+   ```bash
    https://github.com/LukaszMatecki/Path-of-Fortune.git
-2. Otwórz w Unity Hub:
+   ```
+3. Otwórz w Unity Hub:
    Wskaż folder z projektem (Wymagana wersja Unity: 6000.0.24f1).
-3. Uruchom Grę:
+4. Uruchom Grę:
    Otwórz scenę MainScene.unity i kliknij przycisk Play.
 
 ---
