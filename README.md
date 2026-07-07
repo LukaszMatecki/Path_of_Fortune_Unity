@@ -1,11 +1,20 @@
 <div align="center">
 
 # Path of Fortune
+### Hybryda gry planszowej i karcianki / Board game & card battler hybrid
 
-![Unity](https://img.shields.io/badge/Unity-6000.0.24f1-000000?style=for-the-badge&logo=unity&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Educational-blueviolet?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=unity,cs,blender,ps" alt="Tech Stack" />
+  </a>
+</p>
+
+![Unity](https://img.shields.io/badge/Unity-6000.0.24f1-black?style=flat-square&logo=unity&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Educational-blueviolet?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
+*Projekt edukacyjny demonstrujący zaawansowaną obsługę UI, zarządzanie stanem gry oraz integrację mechanik karcianych w środowisku 3D.*
 
 </div>
 
